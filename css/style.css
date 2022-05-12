@@ -657,6 +657,11 @@ input::-webkit-datetime-edit-year-field:focus {
     grid-template-columns: repeat(3, 210px);
     column-gap: 4rem;
   }
+	
+  .gallery__container{
+    grid-template-columns: repeat(3, 210px);
+    column-gap: 4rem;
+  }
   .menu__content{
     padding: 1.5rem;
   }
