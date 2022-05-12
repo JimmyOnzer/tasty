@@ -649,6 +649,7 @@ input::-webkit-datetime-edit-year-field:focus {
   }
 
   .services__container,
+  .events__container,
   .menu__container{
     margin-top: var(--mb-6);
   }
@@ -662,6 +663,12 @@ input::-webkit-datetime-edit-year-field:focus {
     grid-template-columns: repeat(3, 210px);
     column-gap: 4rem;
   }
+	
+.events__container{
+    grid-template-columns: repeat(3, 210px);
+    column-gap: 4rem;
+ }
+	
   .menu__content{
     padding: 1.5rem;
   }
