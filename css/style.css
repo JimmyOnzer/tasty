@@ -446,7 +446,7 @@ input::-webkit-datetime-edit-day-field:focus,
 input::-webkit-datetime-edit-month-field:focus,
 input::-webkit-datetime-edit-year-field:focus {
     background-color: red;
-    color: white;
+    color: black;
     outline: none;
 }
 
