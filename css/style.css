@@ -188,10 +188,15 @@ a{
 .l-header{
   width: 100%;
   position: fixed;
+  align-items: center;
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
   background-color: var(--body-color);
+}
+
+header{
+  align-items: center;
 }
 
 /*========== NAV ==========*/
