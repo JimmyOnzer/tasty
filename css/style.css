@@ -161,13 +161,13 @@ a{
 
 .section-title{
   font-size: var(--h1-font-size);
-  color: var(--title-color);
+  color: white;
   margin-bottom: var(--mb-3);
 }
 
 .section-subtitle{
   display: block;
-  color: var(--first-color);
+  color: white;
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-1);
 }
@@ -197,6 +197,7 @@ a{
 
 header{
   align-items: center;
+  background-color: lightbrown;
 }
 
 /*========== NAV ==========*/
@@ -304,13 +305,13 @@ header{
 
 .home__title{
   font-size: var(--biggest-font-size);
-  color: var(--first-color);
+  color: white;
   margin-bottom: var(--mb-1);
 }
 
 .home__subtitle{
   font-size: var(--h1-font-size);
-  color: var(--title-color);
+  color: white;
   margin-bottom: var(--mb-4);
 }
 
@@ -477,7 +478,7 @@ input::-webkit-datetime-edit-year-field:focus {
 
 .services__title{
   font-size: var(--h3-font-size);
-  color: var(--title-color);
+  color: white;
   margin-bottom: var(--mb-1);
 }
 
