@@ -153,6 +153,7 @@ a{
 /*========== CLASS CSS ==========*/
 .section{
   padding: 4rem 0 2rem;
+  background-image: no-repeat;
 }
 
 .section-title, .section-subtitle{
@@ -161,13 +162,13 @@ a{
 
 .section-title{
   font-size: var(--h1-font-size);
-  color: white;
+  color: black;
   margin-bottom: var(--mb-3);
 }
 
 .section-subtitle{
   display: block;
-  color: white;
+  color: black;
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-1);
 }
