@@ -193,12 +193,12 @@ a{
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: var(--body-color);
+  background-color: #AB6634;
 }
 
 header{
   align-items: center;
-  background-color: lightbrown;
+  background-color: #AB6634;
 }
 
 /*========== NAV ==========*/
@@ -306,13 +306,13 @@ header{
 
 .home__title{
   font-size: var(--biggest-font-size);
-  color: white;
+  color: black;
   margin-bottom: var(--mb-1);
 }
 
 .home__subtitle{
   font-size: var(--h1-font-size);
-  color: white;
+  color: black;
   margin-bottom: var(--mb-4);
 }
 
@@ -479,7 +479,7 @@ input::-webkit-datetime-edit-year-field:focus {
 
 .services__title{
   font-size: var(--h3-font-size);
-  color: white;
+  color: blacl;
   margin-bottom: var(--mb-1);
 }
 
@@ -535,6 +535,17 @@ input::-webkit-datetime-edit-year-field:focus {
   border-radius: .5rem 0 .5rem 0;
 }
 
+.menu__title{
+  font-size: var(--biggest-font-size);
+  color: white;
+  margin-bottom: var(--mb-1);
+}
+
+.menu__subtitle{
+  font-size: var(--h1-font-size);
+  color: white;
+  margin-bottom: var(--mb-4);
+}
 
 
 /*========== CONTACT ==========*/
